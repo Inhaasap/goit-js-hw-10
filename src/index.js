@@ -10,8 +10,6 @@ const countryInfo = document.querySelector('.country-info');
 const searchBox = document.querySelector('#search-box');
 const body = document.querySelector('body');
 
-
-body.style.backgroundImage = 'radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% )';
 countriesList.style.visibility = "hidden";
 countryInfo.style.visibility = "hidden";
 

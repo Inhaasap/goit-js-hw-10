@@ -6,41 +6,34 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  -moz-osx-font-smoothing: gryscale;
+  background-color: rgb(242, 223, 243);
   color: #212121;
   line-height: 1.5;
 }
 
 #search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
-}
-
-/* #search-box {
   display: block;
   margin: 0 auto;
-  margin-top: 6.25rem;
+  margin-top: 50px;
 
   font: inherit;
-  padding: 0.3125rem 0.9375rem;
-  max-width: 20rem;
-  width: 20rem;
-  height: 2.75rem;
-  margin-bottom: 16px;
+  padding: 10px;
+  max-width: 350px;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 5px;
 
   border: none;
   outline: none;
-  border-radius: 3.125rem;
+  border-radius: 10px;
 
   background: transparent;
-  color: #03a9f4;
+  color: #363738;
   font-weight: 600;
-  font-size: 0.875rem;
-  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
-    inset 2px 2px 6px rgba(0, 0, 0, 0.75);
+  font-size: 20px;
+  box-shadow: inset -2px -2px 6px rgba(255, 251, 7, 0.768),
+    inset 2px 2px 6px rgba(11, 67, 234, 0.637);
 }
 
 .country-list,
@@ -50,31 +43,22 @@ body {
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
-  padding: 1.875rem;
-  gap: 0.9375rem;
+  padding: 10px;
+  gap: 20px;
+  list-style: none;
 
-  min-width: 9.375rem;
-  max-width: 37.5rem;
-  min-height: 8.125rem;
+  min-width: 10px;
+  max-width: 400px;
+  min-height: 200px;
 
-  backdrop-filter: blur(22px);
   box-shadow: inset 0 0 0 400px rgba(255, 255, 255, 0.074);
-  background-color: transparent;
-  color: #e6e6e6;
+  background-color: #e78be05a;
+  color: #363738;
 
-  border-radius: 0.75rem;
-  border: 0.1875rem solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  border: 10px solid rgba(255, 255, 255, 0.12);
 
   animation: color-change-2x 2s linear infinite alternate both;
-}
-
-@keyframes color-change-2x {
-  0% {
-    background: #48e7f31c;
-  }
-  100% {
-    background: #b041f11a;
-  }
 }
 
 .country-info img {
@@ -84,20 +68,22 @@ body {
 
 .country-list span {
   display: inline-block;
-  font-size: 1.25rem;
+  font-size: 10px;
   vertical-align: super;
 }
+
 img + p {
   font-weight: 700;
-  color: #ffffff;
+  color: #363738;
   text-align: center;
 }
 
 p {
-  color: #03a9f4;
-  margin-top: 0rem;
-  margin-bottom: 0.625rem;
+  color: #0a49f4;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+
 p > span {
-  color: #ffffff;
-} */
+  color: #363738;
+}
