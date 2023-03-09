@@ -15,10 +15,10 @@ countryInfo.style.visibility = "hidden";
 
 searchBox.addEventListener('input', debounce(onInputSearch, DEBOUNCE_DELAY));
 
-function onInputSearch(e) {
-    e.preventDefault();
+function onInputSearch(event) {
+    event.preventDefault();
 
-    const searchCountries = e.target.value.trim();
+    const searchCountries = event.target.value.trim();
 
     if (!searchCountries) {
         countriesList.style.visibility = "hidden";
